@@ -1,1 +1,2 @@
 alpine:3.8
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.44.4
