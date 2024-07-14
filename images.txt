@@ -1,3 +1,17 @@
 alpine:3.8
+#pipeline
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.44.4
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init:v0.44.4
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter:v0.44.4
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/sidecarlogresults:v0.44.4
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop:v0.44.4
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint:v0.44.4
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/git-init:v0.44.4
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/resolvers:v0.44.4
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.44.4
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller:v0.44.4
+#triggers
+gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controller:v0.22.2
+gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink:v0.22.2
+gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook:v0.22.2
+gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard:v0.35.0
