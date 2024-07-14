@@ -15,3 +15,7 @@ gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controller:v0.22.2
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink:v0.22.2
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook:v0.22.2
 gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard:v0.35.0
+gcr.io/google.com/cloudsdktool/cloud-sdk:302.0.0-slim
+#minikube_image
+gcr.io/k8s-minikube/storage-provisioner:v5
+gcr.io/k8s-minikube/kicbase:v0.0.44@sha256:eb04641328b06c5c4a14f4348470e1046bbcf9c2cbc551486e343d3a49db557e
