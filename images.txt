@@ -27,3 +27,5 @@
 #ghcr.io/immich-app/immich-server:release
 #ghcr.io/immich-app/immich-machine-learning:release
 ghcr.io/paperless-ngx/paperless-ngx
+ghcr.io/immich-app/immich-server:v1.132.3
+ghcr.io/immich-app/immich-machine-learning:v1.132.3
